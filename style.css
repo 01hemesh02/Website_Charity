@@ -1,0 +1,1058 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family:"open sans",sans-serif;
+}
+/*----------------------------------------------header section---------------------------------------------- */
+#header{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.toggle{
+    display: none;
+}
+ .menu{
+        left: 0;
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 42vh;
+        z-index: 1;
+    }
+.headElements{
+    display: none;
+}
+.nav-logo{
+    width: 10%;  
+}
+.nav-logo-img{
+    width: 80%;
+    margin-left: 1vw;
+    background-color: #120a78;
+    background-repeat: no-repeat;
+    padding-bottom: 2px;
+}
+.shape_one
+{
+    width: 8%;
+    padding-left: 104px;
+}
+.nav-logo-care-img{
+    margin: 2vh 0 0 2.5vw;
+    width: 33%;
+}
+.nav-logo-img-content{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.triangle-div{
+    width: 4%;
+    height: 0;
+    border-left: 54px solid transparent;
+    border-right: 49px solid transparent;
+    border-top: 47px solid #120a78;
+    margin-top: -0.8vh;
+}
+.logo-img{
+    width: 36%;
+}
+.nav-logo-triangle-div{
+    width: 100%;
+    height: 0;
+    border-left: 54px solid transparent;
+    border-right: 49px solid transparent;
+    border-top: 47px solid #120a78;
+    margin-top: 0.2vh;
+}
+#headElements{
+    width: 43%;
+    padding: 2.5% 0 0 0;
+}
+#headElements ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#headElements ul li{
+    font-size: 0.8rem;
+    list-style-type: none;
+}
+#headElements ul li:hover{
+    transition: scale(101%);
+    color: #f64646;
+}
+#donateBtn{
+    padding: 23% 0 0 1%;
+}
+.donate-btn{
+    border-color: #f64646;
+}
+.donate-btn:hover{
+    background-color: #f64646;
+    color: white;
+}
+#helpPoor{
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),
+    url('./Assets/trevor-cole-CWcAsKuhwy0-unsplash.svg');
+    background-size: 100% 100%;
+    opacity: 0.8;
+    background-repeat: repeat;
+}
+#poorChildContent{
+    width: 70%;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+.poorChildContent-heading{
+    font-size: 27px;
+    text-align: center;
+    padding: 7% 0 0 0;
+}
+.poorChildContent-para{
+    font-size: 2vh;
+}
+.ReadMore{
+    padding: 3vh 7vh;
+    background-color: #f64646;
+    color: white;
+    border: none;
+    text-align: center;
+    margin-top: 3vh;
+}
+.ReadMore:hover{
+    background-color: #120a78;
+    color: white;
+}
+#contactInfo{
+    width: 60%;
+    margin: 14vh 0 0 20vw;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 7px;
+}
+#contactInfo h2{
+    font-size: 20px;
+    padding: 1vh;
+}
+.contactDonation{
+    padding: 2vh 3vw;
+    box-shadow: 2px 2px 8px grey;
+    margin-top: 2vh;
+    border: none;
+}
+.sendBtn{
+    padding: 2vh 4vw;
+    margin-top: 3vh;
+    background-color: #120a78;
+    color: white;
+    border: none;
+}
+.sendBtn:hover{
+    background-color: #f64646;
+    color: white;
+}
+#pointedDivs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 7vw 20vw;
+    width: 60%;
+    justify-content: space-between;
+}
+.pointed_content
+{
+    width: 30%;
+}
+.triangleDiv{
+        background-color: #120a78;
+    width: 100%;
+    text-align: center;
+    font-size: 2vh;
+    color: white;
+}
+.triangleDiv-second{
+    background-color: #f64646;
+    width: 100%;
+    text-align: center;
+    font-size: 2vh;
+    color: white;
+    margin-left: 0vw;
+}
+.triangleDiv-third{
+    background-color: #120a78;
+    width: 100%;
+    text-align: center;
+    font-size: 2vh;
+    color: white;
+    margin-left: 0vw;
+}
+.hand-raise{
+    width: 28%;
+    margin:3vh 0 0 0;
+}
+.fund-raise{
+    width: 28%;
+    margin:3vh 0 0 0;
+}
+.money-bag{
+    width: 22%;
+    margin:3vh 0 0 0;
+}
+.join-btn{
+    background-color: #120a78;
+    color: white;
+    padding: 1.5vh 5vh;
+    margin: 4vh 0 0 0.5vw;
+    border-color: white;
+}
+.join-btn:hover{
+    background-color: #f64646;
+    color: white;
+}
+.join-BTN{
+    background-color: #f64646;
+    color: white;
+    padding: 1.5vh 5vh;
+    margin: 4vh 0 0 0.5vw;
+    border-color: white;
+}
+.join-BTN:hover{
+    background-color: #120a78;
+    color: white;
+}
+.triangle-card{
+    width: 100%;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #120a78;
+}
+.shape-first{
+    width: 100%;
+}
+
+/*-------------------------------------------About section------------------------------------------------*/
+#aboutCharity{
+    background-color: #120a78;
+    padding-bottom: 45px;
+}
+.about-content{
+    width: 61%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+#CharityContent{
+    color: white;
+    font-size: 2vh;
+    line-height: 4vh;
+    padding-top: 92px;
+    width: 85%;
+}
+.about-img{
+    width: 88%;
+    margin: 12vh 0 0 5.5vw;
+}
+.about-img:hover{
+    transition: all 2s ease;
+    scale: 110%;
+    border-radius: 50%;
+}
+.Charity-para{
+    margin-top: 5vh;
+}
+#aboutCharity-ReadMore{
+    padding: 2vh 2vw;
+    background-color: #120a78;  
+    color: white;
+    border-color: white;
+    margin-top: 7vh;
+}
+#aboutCharity-ReadMore:hover{
+    background-color: #f64646;
+    color: white;
+}
+
+/*-----------------------------------------------Mission section-------------------------------------------*/
+.mission-cause{
+    width: 100%;
+}
+.mission-heading {
+    width: 45%;
+    font-size: 1vw;
+    margin: 9vh 0 0 24vw;
+}
+.TwoImgs{
+    width: 70%;
+    display: flex;
+}
+#imgTop{
+    margin: 4% 0 0 24%;
+    width: 60%;
+}
+    .image-one{
+        width: 48%;
+        animation: example infinite ease-out 2s;
+    }
+    .image-two{
+        width: 49%;
+        margin-left: 2vw;
+        animation: example infinite ease-out 2s;
+    }
+    #imgMid{
+        margin: 2% 0 0 11%;
+        width: 60%;
+    }
+    .image-three{
+        width: 48%;
+        animation: example infinite ease-out 2s;
+    }
+    .image-four{
+        width: 51%;
+        margin-left: 2vw;
+        animation: example infinite ease-out 2s;
+    }
+    #imgBottom{
+        margin: 2% 0 0 27%;
+        width: 60%;
+    }
+    .image-five{
+        width: 44%;
+        animation: example infinite ease-out 2s;
+    }
+    .image-six{
+        width: 49%;
+        margin-left: 2vw;
+        animation: example infinite ease-out 2s;
+    }
+    @keyframes example {
+        0%   {scale: 100%;}
+        50%  {scale: 105%;}
+        100%  {scale: 100%;}
+    }
+
+    /*-----------------------------------------------feature section--------------------------------------------*/
+    .featuredCause{
+        border: 1px solid black;
+        width: 100%;
+    }
+    .featureCause-heading{
+        width: 70%;
+        font-size: 1vw;
+        margin: 9vh 0 0 15%;
+    }
+    .feature-content{
+        width: 70%;
+        margin: 5vh 0 0 15%;
+        display: flex;
+    }
+    #imgGirl{
+        width: 50%;
+        border-top: 10px solid #f64646;
+        border-left: 10px solid #f64646;
+        border-bottom: 12px solid #f64646;
+    }
+    #imgGirl:hover{
+        box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+         rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+         transition: 2s ease-in-out;
+    }
+    #featureCauseContent{
+        width: 50%;
+        font-size: 1vw;
+        line-height: 4vh;
+        margin: 3vh 0 0 2vw;
+    }
+    .feature-img{
+        width: 100%;
+        height: 56vh;
+    }
+    .RaisedGaol{
+        display: flex;
+        margin-top: 3vh;
+    }
+    .raise{
+        color: #120a78;
+    }
+    .goal{
+        color: #f64646;
+        margin-left: 3vw;
+    }
+    .feature-read-btn{
+        padding:2vh 2vw;
+        margin-top: 2vh;
+        background-color: #120a78;
+        color: white;
+        
+    }
+    .feature-read-btn:hover{
+        background-color: #f64646;
+    }
+    .feature-donate-btn{
+        padding:2vh 2vw;
+        background-color: #f64646;
+        margin-left: 1vw;
+        color: white;
+    }
+    .feature-donate-btn:hover{
+        background-color:#120a78;
+    }
+    /*--------------------------------------------Events section----------------------------------------------*/
+#upcomingEvents{
+    width: 100%;
+}
+.events-heading{
+    width: 70%;
+    font-size: 1vw;
+    margin: 9vh 0 0 15%;
+}
+.event-date-div{
+    width: 20%;
+    height: 6vh;
+    margin-top: 16vh;
+    background-color: #f64646;
+    color: white;
+}
+.event-month-div{
+    width: 20%;
+    height: 6vh;
+    background-color: #120a78;
+    color: white;
+}
+.students{
+    display: flex;
+    width: 70%;
+    margin: 5vh 0 0 15%;
+}
+.Students{
+    display: flex;
+    width: 70%;
+    margin: 5vh 0 0 15%; 
+}
+.studentImg{
+    width: 39%;
+    height: 40vh;
+    background-image: url('./Assets/santi-vedri-O5EMzfdxedg-unsplash.png');
+    background-size: 132% 124%;
+}
+.StudentImg{
+    width: 39%;
+    height: 42vh;
+    background-image: url('./Assets/jeshoots-com-LKREcvZeoJQ-unsplash copy (1).svg');
+    background-size: 132% 124%;
+    margin-top: -2vh;
+}
+.upCommingEvnetContent{
+    margin: 3vh 0 0 4%;
+    font-size: 2.1vh;
+    line-height: 4vh;
+    width: 50%;
+}
+.UpCommingEvnetContent{
+    margin: 1vh 0 0 4%;
+    font-size: 2.1vh;
+    line-height: 4vh;
+    width: 50%;
+}
+#donatePeople {
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    padding-bottom: 112px;
+    background-image: url(./Assets/amevi-wisdom-wiUl_NyafcY-unsplash.png);
+    background-size: 100% 124%;
+}
+#donatePeople h2{
+    color: white;
+    margin: 7vh 0 0 36vw;
+}
+/*--------------------------------------------review section------------------------------------------------*/
+.reviews-opacity {
+    width: 100%;
+    border: 1px solid black;
+    background-color: #120a78;
+    margin-top: 10vh;
+}
+.forward-arrow{
+    width: 5vw;
+    height: 12vh;
+    margin-top:20vh;
+    background-color: #120a78;
+    color: white;
+}
+.fa-sharp{
+    padding: 50% 0% 0% 31%;
+}
+.backward-arrow{
+    width: 5vw;
+    height: 12vh;
+    background-color: #f64646;
+    color: white;
+}
+.fa-solid{
+    padding: 50% 0% 0% 31%;
+}
+#Mardko {
+    width: 70%;
+    border: 1px solid white;
+    margin: 5% 0 0 15%;
+    display: flex;
+    height: 42vh;
+    justify-content: space-around;
+    border: 1px solid white;
+}
+#profile {
+    width: 20%;
+    margin-top: 5%;
+    height: 55%;
+}
+.reviwer {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+#MardoContent {
+    width: 70%;
+    color: white;
+    height: 55%;
+    margin-top: 5%;
+}
+#MardoContent p{
+    padding-top: 2%;
+}
+/*---------------------------------------------------footer-section----------------------------------------------*/
+.footer {
+    width: 100%;
+    height: 60vh;
+    background-color: #222122;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer-content {
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo-img {
+    width: 88%;
+    height: 17vh;
+    margin-left: 1vw;
+    background-color: #120a78;
+    background-repeat: no-repeat;
+}
+.logo-triangle-div {
+    border-left: 57px solid transparent;
+    border-right: 57px solid transparent;
+    border-top: 36px solid #120a78;
+    margin: 1.4vh 0 0 0vh;
+}
+.logo-care-img{
+    margin: 2vh 0 0 2vw;
+    width: 50%;
+}
+.logo-img-content {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+.footer-navigation-head {
+    font-size: 1.5;
+    color: white;
+    margin-left: 2vw;
+}
+.navigation-list-first {
+    margin: 5% 0% 0% 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-list-first ul li {
+    color: grey;
+}
+.navigation-list-first ul li:hover{
+    color: white;
+}
+.navigation-list-first ul li::before{
+    content:"\2022";
+    color:#f64646;
+    padding:10px;
+    font-weight: bold;
+}
+.navigation-list-first ul{
+    list-style: none;
+}
+.footer-news-head {
+    font-size: 1.25vw;
+    color: white;
+}
+.footer-news-desc {
+    color: grey;
+    font-size: 15px;
+    margin: 2% 0 0 0%;
+    line-height: 3.8vh;
+}
+.footer-news-desc p:hover{
+    color: white;
+}
+.footer-address-desc p:hover{
+    color: white;
+}
+.footer-address-head {
+    font-size: 1.25vw;
+    color: white;
+    margin-left: 1%;
+}
+.footer-address-desc {
+    color: grey;
+    font-size: 1vw;
+    margin: 3% 0% 0% 1%;
+    line-height: 25px;
+}
+.footer-info {
+    width: 81%;
+    height: 18vh;
+    display: flex;
+    margin: 0vh 0 0 16%;
+}
+.email-info {
+    width: 55%;
+}
+.email-info span{
+    color: #f64646;
+    margin-left: -6vw;
+    font-size: 15px;
+}
+.footer-email{
+    padding: 10px 15px;
+    width: 75%;
+    margin-left: 7%;
+    background-color: #222122;
+    color: white;
+    border-right: none;
+}
+.document-info {
+    color: grey;
+    margin: 5vh 0 0 w;
+    font-size: 15px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+.icons {
+    width: 16%;
+}
+.icon {
+    width: 6%;
+    margin-top: 3vh;
+}
+.icon-tweet {
+    width: 11%;
+    margin-left: 7px;
+}
+.icon-insta {
+    width: 10%;
+    margin-left: 7px;
+}
+.icon-logo {
+    width: 9%;
+    margin-left: 1%;
+}
+
+/*-------------------------------------------------animation--------------------------------------------------------*/
+.animation{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+.animation.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+.Hr-animation {
+    display: block; 
+    width: 90%;
+    animation: move 10s linear infinite;
+  }
+@keyframes move {
+    to { transform: translateX(100%); }
+}
+
+@media screen and (min-device-width: 355px)and (max-device-width:557px){
+
+    /*-------------------------------------------------------- header section--------------------------------------- */
+    /* #headElements ul{
+        display: none;
+    } */
+    .toggle{
+        display: block;
+    }
+    #headElements{
+        display: none;
+    }
+    .tog{
+        width: 20%;
+    }
+    #checkbox{
+        display: none;
+    }
+    #checkbox:checked~.menu{
+        display: block;
+    }
+    .menu{
+        background-color: #120a78;
+        color: white;
+    }
+    .menu ul li{
+        font-size: 25px;
+        text-align: center;
+        line-height: 6vh;
+    }
+    .menu ul li:hover{
+         color: black;
+    }
+    .nav-logo-img{
+        display: none;
+    }
+    #icon{
+        display: none;
+    }
+    #donateBtn{
+        display: none;
+    }
+    .shape_one {
+       display: none;
+    }
+    #poorChildContent {
+        width: 96%;
+        margin: auto;
+        color: white;
+        text-align: center;
+        padding-bottom: 64px;
+    
+    }
+    .ReadMore {
+        padding: 2vh 7vh;
+        background-color: #f64646;
+        color: white;
+        border: none;
+        text-align: center;
+        margin-top: 3vh;
+    }
+    .poorChildContent-heading {
+        font-size: 23px;
+        text-align: center;
+        padding: 4% 0 0 0;
+    }
+    #contactInfo {
+        width: 88%;
+        margin: 14vh 0 0 6vw;
+        background-color: white;
+        text-align: center;
+        border: 1px solid;
+        padding-bottom: 7px;
+    }
+    #contactInfo h2 {
+        font-size: 26px;
+        padding: 1vh;
+    }
+    input {
+        padding: 2vh 3vw;
+        box-shadow: 2px 2px 8px grey;
+        margin-top: 2vh;
+        border: none;
+        width: 84%;
+    }
+    .sendBtn {
+        padding: 2vh 4vw;
+        margin-top: 3vh;
+        background-color: #120a78;
+        color: white;
+        border: none;
+        width: 41%;
+    }
+    /*-----------------------------------------------------pointed section------------------------------------------  */
+    #pointedDivs {
+        display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 7vw 6vw;
+    width: 87%;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+    .pointed_content {
+        width: 100%;
+    }   
+    /*----------------------------------------------------About section-----------------------------------------*/ 
+    .about-content {
+        width: 96%;
+        display: flex;
+        margin: auto;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    #CharityContent {
+        color: white;
+        font-size: 2vh;
+        line-height: 4vh;
+        padding-top: 68px;
+        width: 96%;
+        text-align: justify;
+    }
+    #aboutCharity-ReadMore {
+        padding: 2vh 2vw;
+        background-color: #120a78;
+        color: white;
+        border-color: white;
+        margin-top: 4vh;
+        width: 42%;
+        margin-left: 90px;
+    }
+    .about-img {
+        width: 88%;
+        margin: 4vh 0 0 5.5vw;
+    }
+    /*------------------------------------------------------- mission---------------------------------------------  */
+    .mission-heading {
+        width: 100%;
+        font-size: 4vw;
+        margin: 6vh 0 0 0vw;
+        text-align: center;
+    }
+    missionCause p 
+    {
+        font-size: 2vh;
+    }
+    /*----------------------------------------------------- feature section----------------------------------------- */
+     .featureCause-heading {
+        width: 70%;
+        font-size: 3.8vw;
+        line-height: 3vh;
+        margin: 9vh 0 0 15%;
+    }
+    .feature-img {
+        width: 100%;
+        height: 56vh;
+    }
+    #featureCauseContent {
+        width: 100%;
+        font-size: 4vw;
+        line-height: 4vh;
+        margin: 3vh 0 0 2vw;
+    }
+    .feature-content {
+        width: 70%;
+        margin: 5vh 0 0 15%;
+        display: flex;
+        flex-direction: column;
+    }
+    #imgGirl {
+        width: 100%;
+        height: 40vh;
+        border-top: 10px solid #f64646;
+        border-left: 10px solid #f64646;
+        border-bottom: 12px solid #f64646;
+    }
+    .feature-img {
+        width: 100%;
+        height: 40vh;
+    }
+    .students {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 5vh 0 0 15%;
+    }
+
+    /*-------------------------------------------------event section------------------------------------------------- */
+    .events-heading {
+        line-height: 8vw;
+        width: 80%;
+        font-size: 4vw;
+        margin: 9vh 0 0 15%;
+    }
+    .studentImg {
+        width: 100%;
+        height: 39vh;
+        background-image: url(./Assets/santi-vedri-O5EMzfdxedg-unsplash.png);
+        background-size: 132% 124%;
+    }
+    .upCommingEvnetContent {
+        margin: 3vh 0 0 4%;
+        font-size: 2.1vh;
+        line-height: 4vh;
+        width: 100%;
+    }
+    .Students {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 5vh 0 0 15%;
+    }
+    .StudentImg {
+        width: 100%;
+        height: 35vh;
+        background-image: url('./Assets/jeshoots-com-LKREcvZeoJQ-unsplash copy (1).svg');
+        background-size: 132% 124%;
+    }
+    .UpCommingEvnetContent {
+        margin: 6vh 0 0 4%;
+        font-size: 2.1vh;
+        line-height: 4vh;
+        width: 100%;
+    }
+    /*-------------------------------------------------review section----------------------------------------------  */
+    .reviews-opacity {
+        width: 100%;
+        border: 1px solid black;
+        background-color: #120a78;
+        margin-top: 10vh;
+    }
+    #donatePeople {
+        border: 1px solid black;
+        width: 100%;
+        padding-bottom: 112px;
+        background-image: url(./Assets/amevi-wisdom-wiUl_NyafcY-unsplash.png);
+        background-size: 100% 124%;
+    }
+    #Mardko {
+        width: 70%;
+        border: 1px solid white;
+        margin: 15% 0 0 10%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-around;
+        border: 1px solid white;
+        padding: 5% 4% 5% 4%;
+    }
+    #profile {
+        width: 100%;
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    .reviwer {
+        width: -webkit-fill-available;
+        height: 100%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    #MardoContent {
+        width: 100%;
+        color: white;
+        height: 48%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    #MardoContent p {
+        padding-top: 2%;
+    }
+    .forward-arrow{
+        display: none;
+    }
+    .backward-arrow{
+        display: none;
+    }
+    /*-------------------------------------------------footer section ---------------------------------------------*/
+
+    .footer {
+        border: 1px solid white;
+        width: 100%;
+        height: 68vh;
+        margin-top: 0%;
+        background-color: #222122;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .footer-content {
+        display: flex;
+        width: 70%;
+        margin-top: 14%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer-logo {
+        border: 1px solid white;
+        width: 40%;
+        margin-left: 30%;
+    }
+    .logo-img {
+        display: none;
+    }
+    .logo-care-img {
+        margin: 2vh 0 0 2vw;
+        width: 4%;
+    }
+    .logo-img-content {
+        text-align: center;
+        font-size: 12px;
+        color: white;
+    }
+    .footer-navigation {
+        width: 100%;
+    }
+    .footer-navigation-head {
+        font-size: 1.5;
+        color: white;
+        margin-left: 30%;
+    }
+    .navigation-list-first {
+        margin: 5% 0% 0% 0%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-news {
+        margin-top: 14%;
+        width: 100%;
+    }
+    .footer-news-head {
+        font-size: 4.25vw;
+        color: white;
+        margin-left: 37%;
+    }
+    .footer-news-desc {
+        color: grey;
+        font-size: 4vw;
+        margin: 0% 0 0 10%;
+        line-height: inherit;
+    }
+    .footer-address {
+        margin-top: 15%;
+        width: 100%;
+    }
+    .footer-address-head {
+        font-size: 4.25vw;
+        color: white;
+        margin-left: 33%;
+    }
+    .footer-address-desc {
+        color: grey;
+        font-size: 3.5vw;
+        margin: 3% 0% 0% 26%;
+    }
+    .icons{
+        display: none;
+    }
+    .footer-email{
+        display: none;
+    }
+    #sub{
+        display: none;
+    }
+    .footer-info{
+        display: none;
+    }
+}
