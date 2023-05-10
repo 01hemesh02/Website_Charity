@@ -39,7 +39,7 @@ body{
 .shape_one
 {
     width: 8%;
-    padding-left: 104px;
+    padding-left: 98px;
 }
 .nav-logo-care-img{
     margin: 2vh 0 0 2.5vw;
@@ -556,7 +556,7 @@ body{
     border-left: 57px solid transparent;
     border-right: 57px solid transparent;
     border-top: 36px solid #120a78;
-    margin: 1.4vh 0 0 0vh;
+    margin: 0.4vh 0 0 0vh;
 }
 .logo-care-img{
     margin: 2vh 0 0 2vw;
